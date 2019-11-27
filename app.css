@@ -1,0 +1,173 @@
+/*
+ * Font Family used on Brookings.edu
+
+	- meta: 'franklin-gothic-urw', helvetica, sans-serif;
+	- heading: 'franklin-gothic-urw-cond' helvetica, sans-serif;
+	- body: 'PT Serif', Times, serif;
+ */
+
+
+/* -- Small Reset -- */
+
+.influence-interactive {
+    box-sizing: border-box
+}
+
+.influence-interactive *,
+.influence-interactive *::before,
+.influence-interactive *::after {
+    box-sizing: inherit
+}
+
+
+/* -- Layout -- */
+
+.influence-interactive {
+    /* max-width: 1000px; */
+    margin: 2em auto;
+    width: 90vw;
+    max-width: 50em;
+    font-family: 'franklin-gothic-urw', helvetica, sans-serif;
+    /* meta */
+    line-height: 1;
+}
+
+.influence-interactive p {
+    /* max-width: 1000px; */
+    font-family: 'franklin-gothic-urw', helvetica, sans-serif;
+    font-size: 1.125em;
+    /* meta */
+    line-height: 1;
+}
+
+.influence-interactive p.header-lower {
+    /* max-width: 1000px; */
+    font-family: 'franklin-gothic-urw', helvetica, sans-serif;
+    font-size: 0.6em;
+    /* meta */
+    line-height: 1;
+}
+
+.influence-interactive div p.h6 {
+    font-family: 'franklin-gothic-urw', helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.125em;
+    padding: .2em;
+    /* meta */
+    line-height: 1;
+}
+
+.influence-interactive div p.h4 {
+    font-family: 'franklin-gothic-urw', helvetica, sans-serif;
+    font-size: 0.65em;
+    padding: .2em;
+    text-decoration: underline;
+    cursor: pointer;
+    /* meta */
+    line-height: 1;
+}
+
+.influence-interactive div p.h5 {
+    font-family: 'franklin-gothic-urw', helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 0.65em;
+    padding: .2em;
+    text-decoration: underline;
+    cursor: pointer;
+    /* meta */
+    line-height: 1;
+}
+
+.influence-interactive div.h3 {
+    font-family: 'franklin-gothic-urw', helvetica, sans-serif;
+    max-width: 200em;
+    /* margin-bottom: -3em; */
+    width: 50vw;
+    /* meta */
+    line-height: 1;
+}
+
+#influence-interactive-div footer.influence-interactive-footer {
+    /* max-width: 1000px; */
+    margin: 2em auto;
+    width: 90vw;
+    max-width: 50em;
+    font-family: 'franklin-gothic-urw', helvetica, sans-serif;
+    /* meta */
+    /* line-height: 1; */
+}
+
+#influence-interactive-div footer p {
+    font-family: 'franklin-gothic-urw', helvetica, sans-serif;
+    font-size: smaller;
+    font-style: italic;
+    /* meta */
+    line-height: 1;
+}
+
+#influence-interactive-div footer img {
+    float: right;
+    /* meta */
+    line-height: 1;
+}
+
+#influence-interactive-div .active {
+    color: blue;
+}
+
+#influence-interactive-div div.tooltip {
+    position: absolute;
+    text-align: center;
+    /* width: 190px;
+    height: 35px; */
+    padding: 2em;
+    font-size: .5em;
+    color: white;
+    background: #FFFFE0;
+    border: 1px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+#influence-interactive-div .region {
+    fill: none;
+}
+
+#influence-interactive-div path {
+    stroke: steelblue;
+    stroke-width: 0.1em;
+}
+
+#influence-interactive-div .city {
+    font-family: sans-serif;
+    font-size: .6em;
+    font-weight: bold;
+}
+
+#influence-interactive-div .axis path,
+#influence-interactive-div .axis line {
+    fill: none;
+    stroke: slategray;
+}
+
+#influence-interactive-div .axis text {
+    font-family: sans-serif;
+    font-size: .6em;
+    stroke: lightsteelblue;
+    stroke-width: .3px;
+}
+
+#influence-interactive-div path.line {
+    stroke: lightgray;
+    stroke-width: 0.3em;
+    opacity: 0.7;
+}
+
+.influence-interactive div.tooltip-div {
+    margin-top: 0.5em;
+    padding: 0.3em;
+    white-space: pre-wrap;
+    font-family: 'franklin-gothic-urw', helvetica, sans-serif;
+    font-size: .65em;
+    color: black
+}
