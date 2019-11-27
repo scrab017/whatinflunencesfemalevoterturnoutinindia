@@ -6814,7 +6814,7 @@
             // Create SVG element
             var svg = d3.select(".h3")
                 .append("svg")
-                .attr('viewBox', '0 0 700 490')
+                .attr('viewBox', '0 0 750 390')
                 .attr('preserveAspectRatio', 'xMinYMin slice')
                 .attr('width', '100%')
                 .style("margin", "2em auto");
